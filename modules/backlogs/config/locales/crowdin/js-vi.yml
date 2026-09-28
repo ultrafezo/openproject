@@ -24,34 +24,36 @@ vi:
   js:
     backlogs:
       announcements:
-        batch_too_large: Cannot move %{count} work packages at once. Select no more than %{max}.
-        fallback_item_label: Work package
-        fallback_list_name: another list
-        move_failed_check_position: Move failed. Check the work package's current position.
+        batch_too_large: "Không thể di chuyển %{count} gói công việc cùng một lúc. Chọn không quá %{max}."
+        fallback_item_label: "Gói công việc"
+        fallback_list_name: "một danh sách khác"
+        move_failed_check_position: "Di chuyển thất bại. Kiểm tra vị trí hiện tại của gói công việc."
         move_failed_check_positions_batch:
-          other: Move failed. Check the work packages' current positions.
-        move_failed_rolled_back: Move failed. %{label} returned to its previous position.
+          other: "Di chuyển thất bại. Kiểm tra vị trí hiện tại của các gói công việc."
+        move_failed_rolled_back: "Di chuyển thất bại. %{label} đã trở về vị trí trước đó."
         move_failed_rolled_back_batch:
-          other: Move failed. %{count} work packages returned to their previous positions.
-        moved: "%{label} moved to position %{position} of %{total}"
+          other: "Di chuyển thất bại. %{count} gói công việc đã trở về vị trí trước đó."
+        moved: "%{label} đã được di chuyển đến vị trí %{position} trong tổng %{total}"
         moved_batch:
-          other: "%{count} work packages moved to positions %{first} through %{last} of %{total}"
+          other: "%{count} gói công việc đã được di chuyển đến các vị trí %{first} đến %{last} trong tổng %{total}"
         moved_batch_to_list:
-          other: "%{count} work packages moved to %{list}, positions %{first} through %{last} of %{total}"
-        moved_to_list: "%{label} moved to %{list}, position %{position} of %{total}"
+          other: "%{count} gói công việc đã được di chuyển đến %{list}, các vị trí %{first} đến %{last} trong tổng %{total}"
+        moved_to_list: "%{label} đã được di chuyển đến %{list}, vị trí %{position} trong tổng %{total}"
       selection:
-        card_state: Selected
-        cleared: Selection cleared.
-        not_selectable: Selection unchanged. This work package takes no part in this list's ordering.
-        range_blocked: Selection unchanged. That range contains a work package that takes no part in this list's ordering.
+        card_state: "Đã chọn"
+        cleared: "Đã bỏ lựa chọn."
+        not_selectable: "Lựa chọn không thay đổi. Gói công việc này không tham gia vào thứ tự của danh sách này."
+        range_blocked: "Lựa chọn không thay đổi. Vùng chọn đó chứa một gói công việc không tham gia vào thứ tự của danh sách này."
         range_restarted:
-          other: Could not extend the range. %{count} work packages selected.
-        range_unavailable: Selection unchanged. Expand this list to select that range.
+          other: "Không thể mở rộng vùng chọn. %{count} gói công việc đã chọn."
+          one: "Không thể mở rộng vùng chọn. 1 gói công việc đã chọn."
+        range_unavailable: "Lựa chọn không thay đổi. Mở rộng danh sách này để chọn vùng đó."
         selected:
-          other: "%{count} work packages selected."
+          other: "%{count} gói công việc đã chọn."
+          one: "1 gói công việc đã chọn."
     burndown:
-      day: Day
-      points: Points
+      day: "Ngày"
+      points: "Điểm"
     work_packages:
       properties:
         storyPoints: Điểm cốt truyện

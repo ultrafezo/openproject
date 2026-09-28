@@ -4,16 +4,16 @@ vi:
     attributes:
       bim/bcf/issue:
         bcf_comment: Bình luận BCF
-        bim_snippet: đoạn trích BIM
+        bim_snippet: Đoạn trích BIM
         reference_links: Liên kết tham khảo
-        stage: sân khấu
-        status_id: Status
-        viewpoint: quan điểm
+        stage: Giai đoạn
+        status_id: "Trạng thái"
+        viewpoint: Điểm nhìn
       bim/bcf/viewpoint:
-        status_id: Status
+        status_id: "Trạng thái"
       bim/ifc_models/ifc_model:
-        attachments: tập tin IFC
-        ifc_attachment: tập tin IFC
+        attachments: Tập tin IFC
+        ifc_attachment: Tập tin IFC
         is_default: Mô hình mặc định
     errors:
       models:
@@ -39,18 +39,18 @@ vi:
               invalid_ifc_file: Tệp được cung cấp không phải là tệp IFC hợp lệ.
     models:
       bim/bcf/comment:
-        other: BCF comments
+        other: "Các bình luận BCF"
       bim/bcf/issue:
-        other: BCF issues
+        other: "Các vấn đề BCF"
       bim/bcf/viewpoint:
-        other: BCF viewpoints
+        other: "Các góc nhìn BCF"
       bim/ifc_models/ifc_model:
-        other: IFC models
+        other: "Mô hình IFC"
   attributes:
     bcf_thumbnail: Hình ảnh xem trước của BCF
   bcf:
     bcf_xml:
-      export: xuất khẩu
+      export: Xuất
       import:
         add_as_members_with_role: Thêm họ làm thành viên của dự án "%{project}" với vai trò
         bcf_file_not_found: Xác định tệp BCF thất bại. Hãy upload lại.
@@ -86,7 +86,7 @@ vi:
       import_failed: 'Không thể nhập file BCF: %{error}'
       import_failed_unsupported_bcf_version: 'Không đọc được tệp BCF: Phiên bản BCF không được hỗ trợ. Hãy đảm bảo phiên bản ít nhất %{minimal_version} trở lên.'
       import_successful: Đã nhập %{count} vấn đề
-      import_title: nhập khẩu
+      import_title: Nhập
       import_update_comment: "(Cập nhật từ file BCF)"
       type_not_active: Loại vấn đề không được kích hoạt cho dự án này.
       xml_file: Tệp BCF XML
@@ -106,8 +106,8 @@ vi:
       other: "%{count} vấn đề về BCF"
       zero: Không có vấn đề BCF
   bim:
-    error_direct_upload_failed: Direct upload failed.
-    error_direct_upload_file_too_large: IFC model is too large (maximum size is %{size} Bytes).
+    error_direct_upload_failed: "Tải lên trực tiếp thất bại."
+    error_direct_upload_file_too_large: "Mô hình IFC quá lớn (kích thước tối đa là %{size} bytes)."
     label_bim: BIM
   export:
     format:
@@ -120,10 +120,10 @@ vi:
       missing_commands: 'Các lệnh chuyển đổi IFC sau bị thiếu trên hệ thống này: %{names}'
     conversion_status:
       completed: Đã hoàn thành
-      error: lỗi
+      error: Lỗi
       label: Xử lý?
-      pending: đang chờ xử lý
-      processing: chế biến
+      pending: Đang chờ xử lý
+      processing: Đang xử lý
     flash_messages:
       upload_successful: Tải lên thành công. Bây giờ nó sẽ được xử lý và sẽ sẵn sàng để sử dụng trong vài phút nữa.
     label_default_ifc_models: Các mô hình IFC mặc định
@@ -144,10 +144,7 @@ vi:
       bcf_v2_1_text: Ứng dụng sẽ nhận được toàn quyền truy cập đọc & ghi vào API OpenFject BCF v2.1 để thực hiện các hành động thay mặt bạn.
   permission_delete_bcf: Xóa các vấn đề về BCF
   permission_manage_bcf: Nhập và quản lý các vấn đề trong BCF
-  permission_manage_bcf_explanation: |
-    Allows managing BCF issues, including bulk import and updates.
-    BCF import maps file metadata to project resources and can create or update work packages
-    and comments using author and timestamp values from the imported file, effectively acting on behalf of users.
+  permission_manage_bcf_explanation: "Cho phép quản lý các vấn đề BCF, bao gồm nhập hàng loạt và cập nhật.\nViệc nhập BCF ánh xạ siêu dữ liệu của tệp vào các tài nguyên của dự án và có thể tạo hoặc cập nhật các gói công việc\nvà bình luận dựa trên các giá trị người tạo và dấu thời gian từ tệp được nhập, thực tế hành động thay mặt người dùng.\n"
   permission_manage_ifc_models: Nhập và quản lý các mô hình IFC
   permission_view_ifc_models: Xem các mô hình IFC
   permission_view_linked_issues: Xem các vấn đề trong BCF
@@ -155,5 +152,5 @@ vi:
     description: Plugin OpenProject này giới thiệu chức năng BIM và BCF.
     name: Chức năng OpenProject BIM và BCF
   project_module_bcf: BCF
-  project_module_bim: BCF
-  project_module_ifc_models: mô hình IFC
+  project_module_bim: BIM
+  project_module_ifc_models: "Mô hình IFC"

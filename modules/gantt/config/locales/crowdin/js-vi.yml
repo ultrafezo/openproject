@@ -4,4 +4,4 @@ vi:
     work_packages:
       default_queries:
         milestones: Các cột mốc quan trọng
-      label_gantt_chart_plural: biểu đồ Gantt
+      label_gantt_chart_plural: Biểu đồ Gantt

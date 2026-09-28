@@ -23,7 +23,7 @@ vi:
             Hiện tại không có trạng thái nào. <br>
             Hoặc không có hoặc tất cả chúng đều đã được thêm vào bảng.
       board_type:
-        action: bảng hành động
+        action: Bảng hành động
         action_by_attribute: Bảng hành động (%{attribute})
         action_text: 'Một bảng có các danh sách được lọc trên thuộc tính %{attribute}. Việc di chuyển các gói công việc sang danh sách khác sẽ cập nhật thuộc tính của chúng.
 
@@ -52,8 +52,8 @@ vi:
         board_type_title:
           assignee: Người được chuyển nhượng
           basic: Cơ bản
-          status: trạng thái
-          subproject: dự án con
+          status: Trạng thái
+          subproject: Dự án con
           subtasks: Cha-con
           version: Phiên bản
         free: Cơ bản
@@ -83,12 +83,12 @@ vi:
       text_hidden_list_warning: Không phải tất cả các danh sách đều được hiển thị vì bạn thiếu sự cho phép. Hãy liên hệ với quản trị viên của bạn để biết thêm thông tin.
       version:
         close_version: Đóng phiên bản
-        closed: đóng cửa
+        closed: Đóng cửa
         edit_version: Chỉnh sửa phiên bản
         is_closed: Phiên bản đã đóng. Không thể thêm mục vào phiên bản này.
         is_locked: Phiên bản đã bị khóa. Không thể thêm mục vào phiên bản này.
         lock_version: Phiên bản khóa
-        locked: bị khóa
+        locked: Bị khóa
         open_version: Phiên bản mở
         show_version: Hiển thị phiên bản
         unlock_version: Phiên bản mở khóa

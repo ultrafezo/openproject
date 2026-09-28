@@ -3,13 +3,13 @@ vi:
   activerecord:
     models:
       boards/grid:
-        other: Boards
+        other: "Các bảng"
   boards:
     board_type_attributes:
       assignee: Người được chuyển nhượng
       basic: Cơ bản
       status: Kanban
-      subproject: dự án con
+      subproject: Dự án con
       subtasks: Cha-con
       version: Phiên bản
     board_type_descriptions:
@@ -34,9 +34,9 @@ vi:
     board_types:
       action: Bảng hành động (%{attribute})
       free: Cơ bản
-    label_board: bảng
+    label_board: "Bảng"
     label_board_type: Loại bảng
-    label_boards: bảng
+    label_boards: "Bảng"
     label_create_new_board: Tạo bảng mới
   ee:
     upsell:
@@ -47,4 +47,4 @@ vi:
   plugin_openproject_boards:
     description: Cung cấp chế độ xem bảng.
     name: Ban OpenProject
-  project_module_board_view: bảng
+  project_module_board_view: "Bảng"

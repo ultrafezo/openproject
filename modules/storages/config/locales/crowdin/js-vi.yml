@@ -28,8 +28,10 @@ vi:
         selection:
           zero: Chọn tập tin để liên kết
           other: Liên kết tập tin %{count}
+          one: "Liên kết 1 tệp"
         success_create:
           other: Đã tạo thành công liên kết tệp %{count}.
+          one: "Đã tạo thành công 1 liên kết tệp."
         tooltip:
           not_found: Không thể tìm thấy tập tin này.
           not_logged_in: Vui lòng đăng nhập vào bộ lưu trữ để truy cập tập tin này.

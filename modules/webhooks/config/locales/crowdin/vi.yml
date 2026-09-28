@@ -8,16 +8,18 @@ vi:
         response_code: Thông điệp phản hồi
         url: URL tải trọng
       webhooks/webhook:
-        enabled: đã bật
+        enabled: Đã bật
         events: Sự kiện
         projects: Dự án đã kích hoạt
         secret: Chữ ký bí mật
         url: URL tải trọng
     models:
+      webhooks/outgoing_webhook: "Webhook gửi đi"
       webhooks/log:
-        other: Webhook logs
+        other: "Các nhật ký webhook"
       webhooks/webhook:
-        other: Webhooks
+        other: "Các webhook"
+        one: Webhook
   plugin_openproject_webhooks:
     description: Cung cấp API plug-in để hỗ trợ webhooks OpenProject để tích hợp bên thứ 3 tốt hơn.
     name: Webhooks OpenProject
@@ -25,16 +27,15 @@ vi:
     outgoing:
       deliveries:
         no_results_table: Không có đợt giao hàng nào được thực hiện cho webhook này trong những ngày qua.
-        time: thời gian giao hàng
+        time: Thời gian giao hàng
         title: Giao hàng gần đây
       events:
-        comment: bình luận
-        created: đã tạo
+        comment: Bình luận
+        created: Đã tạo
         internal_comment: Bình luận nội bộ
-        updated: đã cập nhật
-      explanation_html: 'Upon the occurrence of an event like the creation of a gói công việc (work package) or an update on a project, OpenProject will send a POST request to the configured web endpoints. Oftentimes, the event is sent after the [configured aggregation period](aggregation_path) has passed.
+        updated: Đã cập nhật
+      explanation_html: "Khi một sự kiện xảy ra, chẳng hạn như việc tạo mới một gói công việc hoặc một cập nhật trên một dự án, OpenProject sẽ gửi một yêu cầu POST tới các điểm cuối web đã được cấu hình. Thông thường, sự kiện được gửi sau khi [chu kỳ gộp đã cấu hình](aggregation_path) đã trôi qua."
 
-        '
       form:
         apiv3_doc_url: Để biết thêm thông tin, hãy truy cập tài liệu API
         description:
@@ -71,8 +72,8 @@ vi:
         disabled_text: Nhấp vào nút chỉnh sửa để kích hoạt webhook.
         enabled: Webhook đã được bật
         enabled_text: Webhook sẽ phát ra tải trọng cho các sự kiện được xác định bên dưới.
-    plural: Webhook
+    plural: "Các webhook"
     resources:
       time_entry:
         name: Thời gian nhập
-    singular: webhook
+    singular: Webhook

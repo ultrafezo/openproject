@@ -14,7 +14,7 @@ vi:
     name: Công cụ lập kế hoạch nhóm OpenProject
   project_module_team_planner_view: Người lập kế hoạch nhóm
   team_planner:
-    label_assignees: người được chuyển nhượng
+    label_assignees: "Người được chuyển nhượng"
     label_create_new_team_planner: Tạo người lập kế hoạch nhóm mới
     label_new_team_planner: Người lập kế hoạch nhóm mới
     label_team_planner: Người lập kế hoạch nhóm

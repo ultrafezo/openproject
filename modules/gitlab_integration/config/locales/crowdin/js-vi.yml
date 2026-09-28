@@ -26,7 +26,7 @@ vi:
     gitlab_integration:
       gitlab_pipelines: Đường ống
       tab_header_issue:
-        title: vấn đề
+        title: Vấn đề
       tab_header_mr:
         copy_menu:
           description: Sao chép đoạn git vào clipboard

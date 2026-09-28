@@ -3,9 +3,9 @@ vi:
   activerecord:
     models:
       job_status/status:
-        other: Background job statuses
+        other: "Các trạng thái tác vụ nền"
   job_status_dialog:
-    click_to_download: Or [click here](download_url) to download.
+    click_to_download: "hoặc [nhấp vào đây](download_url) để tải xuống."
     download_starts: Quá trình tải xuống sẽ tự động bắt đầu.
     errors: Đã xảy ra lỗi
     generic_messages:

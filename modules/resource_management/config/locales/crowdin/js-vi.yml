@@ -1,8 +1,5 @@
 ---
 vi:
   js:
-    button_allocate_resource: Allocate resource
     resource_management:
-      create_placeholder_user: Create placeholder user with filter criteria
-      hidden_user: Hidden user
-      show_allocations: Show resource allocations
+      create_placeholder_user: "Tạo người dùng giữ chỗ với tiêu chí bộ lọc"

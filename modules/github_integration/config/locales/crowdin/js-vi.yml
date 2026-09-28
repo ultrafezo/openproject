@@ -23,7 +23,7 @@
 vi:
   js:
     github_integration:
-      github_actions: hành động
+      github_actions: Hành động
       pull_requests:
         merged_message: 'Yêu cầu kéo #%{pr_number} %{pr_link} cho %{repository_link} đã được %{pr_state} bởi %{github_user_link}.'
         message: 'Yêu cầu kéo #%{pr_number} %{pr_link} cho %{repository_link} do %{github_user_link} tạo đã được %{pr_state}.'

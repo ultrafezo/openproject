@@ -23,7 +23,7 @@ vi:
         empty_state: Sử dụng trường tìm kiếm để tìm các gói công việc và kéo chúng vào bảng kế hoạch để giao cho ai đó cũng như xác định ngày bắt đầu và ngày kết thúc.
         search_placeholder: Tìm kiếm...
       remove_assignee: Xóa người được giao
-      today: hôm nay
+      today: Hôm nay
       two_weeks: 2 tuần
       unsaved_title: Người lập kế hoạch nhóm không tên
-      work_week: tuần làm việc
+      work_week: Tuần làm việc
